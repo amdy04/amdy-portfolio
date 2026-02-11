@@ -288,4 +288,10 @@ body.dark footer {
     cursor: pointer;
     font-size: 16px;
 }
+/* Services Dark Mode */
+body.dark #services li {
+    background-color: #2c2c2c; /* foncé pour Dark Mode */
+    color: #ffffff;            /* texte blanc */
+}
+
 
