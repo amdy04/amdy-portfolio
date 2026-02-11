@@ -11,6 +11,7 @@
 
 <header>
     <h1>AMDY TECH – Développeur Web</h1>
+    <button id="darkModeToggle">🌙</button>
 </header>
     <nav>
     <ul>
@@ -104,8 +105,16 @@
         appearOnScroll.observe(fader);
     });
 </script>
+<script>
+    const toggleBtn = document.getElementById('darkModeToggle');
+
+    toggleBtn.addEventListener('click', () => {
+        document.body.classList.toggle('dark');
+    });
+</script>
 </body>
 </html>
+
 
 
 
