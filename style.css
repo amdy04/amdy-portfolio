@@ -294,4 +294,20 @@ body.dark #services li {
     color: #ffffff;            /* texte blanc */
 }
 
+/* Bouton CV dans À propos */
+.about .btn {
+    margin-top: 20px;
+    padding: 12px 30px;
+    background-color: #28a745; /* vert pour CV */
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+.about .btn:hover {
+    background-color: #218838; /* vert foncé au hover */
+    transform: scale(1.05);
+}
 
