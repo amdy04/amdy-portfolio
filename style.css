@@ -257,3 +257,35 @@ html {
     opacity: 1;
     transform: translateY(0);
 }
+/* DARK MODE */
+body.dark {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+body.dark header {
+    background-color: #000;
+}
+
+body.dark .container,
+body.dark #services,
+body.dark #competences,
+body.dark #projets,
+body.dark .about {
+    background-color: #1e1e1e;
+    color: white;
+}
+
+body.dark footer {
+    background-color: #000;
+}
+
+#darkModeToggle {
+    margin-top: 10px;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
