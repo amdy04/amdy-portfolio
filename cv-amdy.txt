@@ -1,0 +1,39 @@
+Moustapha THIAM
+
+Étudiant en Ingénierie Informatique – Université Assane SECK, Ziguinchor
+
+À propos
+
+Étudiant passionné par le développement web et la création d’applications simples et modernes.
+Compétences en HTML/CSS, JavaScript, PHP/MySQL, C, Java, Photoshop, Canva et maintenance informatique.
+
+Compétences
+
+Développement Web : HTML, CSS, JavaScript, PHP, MySQL
+
+Langages : C, Java
+
+Design : Photoshop, Canva
+
+Autres : Bureautique, maintenance informatique
+
+Projets
+
+Portfolio personnel – Site web responsive et moderne
+
+Gestion Stock FLD – Application PHP/MySQL
+
+Applications en C et Java – Petits projets d’université
+
+Formation
+
+Université Assane SECK – Ingénierie Informatique (L3)
+
+
+Contact
+
+Email : moustaphathiam563@gmail.com
+
+WhatsApp : +221 781252886
+
+Portfolio : [https://amdy04.github.io/amdy-portfolio]
