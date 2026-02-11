@@ -24,14 +24,14 @@
 </nav>
 
 <!-- SECTION ACCUEIL -->
-<section class="container">
+<section class="container fade">
     <p>Je crée des sites web modernes et des applications pour les petits business et étudiants.</p>
     <a href="mailto:moustaphathiam563@gmail.com" class="btn">Me contacter</a>
     <img src="reseau.jpeg" alt="Illustration développement web" class="hero">
 </section>
 
 <!-- SECTION A PROPOS -->
-<section id="about" class="about">
+<section id="about" class="about fade">
     <h2>À propos de moi</h2>
     <p>
         Je suis étudiant en Ingénierie Informatique à l'Université Assane Seck de Ziguinchor.
@@ -41,7 +41,7 @@
 </section>
 
 <!-- SECTION SERVICES -->
-<section id="services">
+<section id="services" class="fade">
     <h2>Mes Services</h2>
     <ul>
         <li>Création de sites web vitrine</li>
@@ -53,7 +53,7 @@
 </section>
 
 <!-- SECTION COMPETENCES -->
-<section id="competences">
+<section id="competences" class="fade">
     <h2>Mes Compétences</h2>
     <div class="skills">
         <div class="skill">HTML / CSS</div>
@@ -70,7 +70,7 @@
 </section>
 
 <!-- SECTION PROJETS -->
-<section id="projets">
+<section id="projets" class="fade">
     <h2>Mes Projets</h2>
     <p>✔️ Site web portfolio personnel</p>
     <p>✔️ Projet Gestion Stock (PHP / MySQL)</p>
@@ -89,8 +89,24 @@
 <a href="https://wa.me/221781252886" class="whatsapp" target="_blank">
     💬
 </a>
+<script>
+    const faders = document.querySelectorAll('.fade');
+
+    const appearOnScroll = new IntersectionObserver(function(entries) {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('visible');
+            }
+        });
+    });
+
+    faders.forEach(fader => {
+        appearOnScroll.observe(fader);
+    });
+</script>
 </body>
 </html>
+
 
 
 
