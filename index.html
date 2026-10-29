@@ -1,125 +1,229 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Amdy – Développeur Web</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Moustapha Thiam – Développeur Java et web | Amdy Tech</title>
+<meta name="description" content="Moustapha Thiam, étudiant en Ingénierie Informatique à Ziguinchor. Java, Spring Boot, microservices et développement web. Fondateur d'Amdy Tech.">
+<meta name="theme-color" content="#0b5d3b">
+<meta property="og:title" content="Moustapha Thiam – Développeur Java et web">
+<meta property="og:description" content="Java, Spring Boot, microservices et sites web pour petits commerces. Amdy Tech, Ziguinchor.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="reseau.jpeg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@500;700;800&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-<header>
-    <h1>AMDY TECH – Développeur Web</h1>
-    <button id="darkModeToggle">🌙</button>
+<a class="skip" href="#main">Aller au contenu</a>
+
+<header class="site-header">
+  <a class="brand" href="#top">Amdy Tech</a>
+  <nav aria-label="Navigation principale">
+    <ul>
+      <li><a href="#about">À propos</a></li>
+      <li><a href="#competences">Compétences</a></li>
+      <li><a href="#projets">Projets</a></li>
+      <li><a href="#parcours">Parcours</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  <button id="themeToggle" class="theme-btn" type="button" aria-label="Changer de thème" aria-pressed="false">🌙</button>
 </header>
-    <nav>
-    <ul>
-        <li><a href="#">Accueil</a></li>
-        <li><a href="#about">À propos</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#competences">Compétences</a></li>
-        <li><a href="#projets">Projets</a></li>
-        <li><a href="mailto:techamdy@gmail.com">Contact</a></li>
-    </ul>
-</nav>
 
-<!-- SECTION ACCUEIL -->
-<section class="container fade">
-    <p>Je crée des sites web modernes et des applications pour les petits business et étudiants.</p>
-    <a href="mailto:techamdy@gmail.com" class="btn">Me contacter</a>
-    <img src="reseau.jpeg" alt="Illustration développement web" class="hero">
-</section>
+<main id="main">
 
-<!-- SECTION A PROPOS -->
-<section id="about" class="about fade">
-    <h2>À propos de moi</h2>
-    <p>
-        Je suis étudiant en Ingénierie Informatique à l'université Assane SECK de Ziguinchor, spécialisé dans la création
-        de sites web simples, modernes et adaptés aux petits business et en développement d'application.
-    </p>
-    <!-- Bouton CV -->
-    <a href="cv-amdy.txt" class="btn" download>Télécharger mon CV</a>
-</section>
-
-<!-- SECTION SERVICES -->
-<section id="services" class="fade">
-    <h2>Mes Services</h2>
-    <ul>
-        <li>Création de sites web vitrine</li>
-        <li>Développement d'applications web (PHP / MySQL)</li>
-        <li>Création de portfolio étudiant</li>
-        <li>Maintenance informatique</li>
-        <li>Design graphique (Canva / Photoshop)</li>
-    </ul>
-</section>
-
-<!-- SECTION COMPETENCES -->
-<section id="competences" class="fade">
-    <h2>Mes Compétences</h2>
-    <div class="skills">
-        <div class="skill">HTML / CSS</div>
-        <div class="skill">JavaScript</div>
-        <div class="skill">PHP</div>
-        <div class="skill">MySQL</div>
-        <div class="skill">C</div>
-        <div class="skill">Java</div>
-        <div class="skill">Bureautique</div>
-        <div class="skill">Maintenance Informatique</div>
-        <div class="skill">Photoshop</div>
-        <div class="skill">Canva</div>
+  <section id="top" class="hero">
+    <div class="hero-text">
+      <p class="status"><span class="dot" aria-hidden="true"></span>Disponible pour un stage ou un premier emploi</p>
+      <h1>Moustapha Thiam, développeur Java et web.</h1>
+      <p class="lead">Étudiant en Licence 3 d'Ingénierie Informatique à Ziguinchor. Je conçois des microservices avec Spring Boot et je crée des sites web pour les petits commerces, sous la marque Amdy Tech.</p>
+      <div class="actions">
+        <a href="#contact" class="btn btn-primary">Me contacter</a>
+        <a href="cv-moustapha-thiam.pdf" class="btn btn-ghost" download>Télécharger mon CV</a>
+      </div>
     </div>
-</section>
+    <figure class="hero-img">
+      <img src="reseau.jpeg" alt="Illustration de réseau informatique" width="560" height="420" loading="eager">
+    </figure>
+  </section>
 
-<!-- SECTION PROJETS -->
-<section id="projets" class="fade">
-    <h2>Mes Projets</h2>
-    <p>✔️ Site web portfolio personnel</p>
-    <p>✔️ Projet Gestion Stock (PHP / MySQL)</p>
-    <p>✔️ Applications en C et Java</p>
-</section>
-
-<!-- FOOTER -->
-<footer>
-    <p>© 2026 – Amdy Développeur Web</p>
-    <div class="socials">
-        <a href="#">WhatsApp</a> |
-        <a href="#">Facebook</a> |
-        <a href="mailto:techamdy@gmail.com">Email</a>
+  <section id="about" class="section">
+    <h2>À propos</h2>
+    <div class="about-grid">
+      <p>Je suis en troisième année d'Ingénierie Informatique à l'Université Assane Seck de Ziguinchor (UASZ). Je m'intéresse au développement logiciel, aux microservices et à l'architecture des systèmes, avec une bonne maîtrise de Java, Spring Boot et des bases de données. Je cherche une équipe dynamique pour progresser et contribuer à des projets concrets.</p>
+      <ul class="facts">
+        <li><strong>Formation</strong> Licence 3, Ingénierie Informatique (UASZ)</li>
+        <li><strong>Lieu</strong> Ziguinchor, Sénégal</li>
+        <li><strong>Langues</strong> Français, Wolof, Anglais technique</li>
+      </ul>
     </div>
+  </section>
+
+  <section id="competences" class="section">
+    <h2>Compétences</h2>
+    <dl class="skills">
+      <div>
+        <dt>Langages et frameworks</dt>
+        <dd><span>Java</span><span>Jakarta EE</span><span>Servlets</span><span>Spring Boot</span><span>PHP</span><span>HTML / CSS</span><span>JavaScript</span></dd>
+      </div>
+      <div>
+        <dt>Architecture et conception</dt>
+        <dd><span>Microservices</span><span>API REST</span><span>UML</span><span>PlantUML</span><span>Méthodes agiles (Jira)</span></dd>
+      </div>
+      <div>
+        <dt>Données et outils</dt>
+        <dd><span>MySQL</span><span>H2</span><span>Git / GitHub</span><span>Maven</span><span>Docker</span><span>Linux</span><span>Android Studio</span></dd>
+      </div>
+      <div>
+        <dt>Systèmes et maintenance</dt>
+        <dd><span>Maintenance matérielle et logicielle</span><span>Réseaux informatiques</span></dd>
+      </div>
+      <div>
+        <dt>Multimédia et bureautique</dt>
+        <dd><span>Suite Office</span><span>Photoshop</span><span>CapCut</span></dd>
+      </div>
+    </dl>
+  </section>
+
+  <section id="projets" class="section">
+    <h2>Projets</h2>
+    <div class="projects">
+      <article class="project">
+        <h3>Architecture microservices</h3>
+        <p>Conception et mise en place d'architectures orientées services avec Spring Boot, Maven et Docker.</p>
+        <p class="tags">Java · Spring Boot · Docker</p>
+      </article>
+      <article class="project">
+        <h3>Applications Android</h3>
+        <p>Outils mobiles de suivi et de gestion créés sous Android Studio.</p>
+        <p class="tags">Java · Android Studio</p>
+      </article>
+      <article class="project">
+        <h3>Recensement et bases documentaires</h3>
+        <p>Bases de données relationnelles et outils de suivi automatisés pour recenser et gérer des documents.</p>
+        <p class="tags">MySQL · SQL</p>
+      </article>
+      <article class="project">
+        <h3>Gestion de stock FLD</h3>
+        <p>Application web pour suivre les entrées et les sorties d'un stock.</p>
+        <p class="tags">PHP · MySQL</p>
+      </article>
+      <article class="project">
+        <h3>Ce portfolio</h3>
+        <p>Site responsive avec thème clair et sombre, hébergé sur Vercel.</p>
+        <p class="tags">HTML · CSS · JavaScript</p>
+        <a href="https://github.com/amdy04/amdy-portfolio" target="_blank" rel="noopener">Voir le code</a>
+      </article>
+    </div>
+  </section>
+
+  <section id="parcours" class="section">
+    <h2>Parcours</h2>
+    <div class="two-col">
+      <div>
+        <h3 class="sub">Formation</h3>
+        <ul class="timeline">
+          <li>
+            <span class="when">2023 – 2026</span>
+            <strong>Licence en Ingénierie Informatique</strong>
+            <span class="where">Université Assane Seck de Ziguinchor</span>
+            <p>Algorithmique, programmation orientée objet, bases de données, réseaux, génie logiciel et modélisation UML.</p>
+          </li>
+          <li>
+            <span class="when">2022</span>
+            <strong>Formation en maintenance informatique</strong>
+            <span class="where">Centre de Recherche et d'Essai de Koki</span>
+            <p>Installation, configuration et dépannage de parcs informatiques.</p>
+          </li>
+          <li>
+            <span class="when">2021</span>
+            <strong>Formation en bureautique et Photoshop</strong>
+            <span class="where">Centre de Recherche et d'Essai de Koki</span>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="sub">Expériences</h3>
+        <ul class="timeline">
+          <li>
+            <span class="when">2026</span>
+            <strong>Création de contenus numériques</strong>
+            <span class="where">Indépendant</span>
+            <p>Photographie, montage vidéo et animation de projets numériques pour des événements et des particuliers.</p>
+          </li>
+          <li>
+            <span class="when">2024 – 2025</span>
+            <strong>Encadreur de cours de vacances</strong>
+            <span class="where">Services éducatifs privés</span>
+            <p>Soutien scolaire, suivi personnalisé et accompagnement pédagogique d'élèves.</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="services" class="section">
+    <h2>Services Amdy Tech</h2>
+    <div class="cards">
+      <article class="card">
+        <h3>Site vitrine</h3>
+        <p>Une présence en ligne claire pour présenter votre activité, vos produits et vos contacts, lisible sur téléphone.</p>
+      </article>
+      <article class="card">
+        <h3>Application web</h3>
+        <p>Outils de gestion sur mesure : stock, suivi de clients, formulaires et listes.</p>
+      </article>
+      <article class="card">
+        <h3>Portfolio étudiant</h3>
+        <p>Un portfolio propre pour valoriser vos projets et vos candidatures de stage.</p>
+      </article>
+      <article class="card">
+        <h3>Maintenance et contenu</h3>
+        <p>Dépannage informatique, visuels Photoshop et montage vidéo.</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="contact" class="section contact">
+    <h2>Contact</h2>
+    <p>Un stage à proposer, un site à créer ? Écrivez-moi, je réponds rapidement.</p>
+    <div class="actions">
+      <a class="btn btn-primary" href="mailto:techamdy@gmail.com">techamdy@gmail.com</a>
+      <a class="btn btn-ghost" href="https://wa.me/221781252886" target="_blank" rel="noopener">WhatsApp</a>
+      <a class="btn btn-ghost" href="https://github.com/amdy04" target="_blank" rel="noopener">GitHub</a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <p>© 2026 Moustapha Thiam · Amdy Tech</p>
+  <p><a href="mailto:techamdy@gmail.com">Email</a> · <a href="https://wa.me/221781252886" target="_blank" rel="noopener">WhatsApp</a> · <a href="https://github.com/amdy04" target="_blank" rel="noopener">GitHub</a></p>
 </footer>
-<a href="https://wa.me/221781252886" class="whatsapp" target="_blank">
-    💬
-</a>
+
 <script>
-    const faders = document.querySelectorAll('.fade');
-
-    const appearOnScroll = new IntersectionObserver(function(entries) {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                entry.target.classList.add('visible');
-            }
-        });
-    });
-
-    faders.forEach(fader => {
-        appearOnScroll.observe(fader);
-    });
-</script>
-<script>
-    const toggleBtn = document.getElementById('darkModeToggle');
-
-    toggleBtn.addEventListener('click', () => {
-        document.body.classList.toggle('dark');
-    });
+(function () {
+  var root = document.documentElement;
+  var btn = document.getElementById('themeToggle');
+  var saved = null;
+  try { saved = localStorage.getItem('theme'); } catch (e) {}
+  var dark = saved ? saved === 'dark' : window.matchMedia('(prefers-color-scheme: dark)').matches;
+  function apply() {
+    root.setAttribute('data-theme', dark ? 'dark' : 'light');
+    btn.textContent = dark ? '☀️' : '🌙';
+    btn.setAttribute('aria-pressed', String(dark));
+  }
+  apply();
+  btn.addEventListener('click', function () {
+    dark = !dark;
+    apply();
+    try { localStorage.setItem('theme', dark ? 'dark' : 'light'); } catch (e) {}
+  });
+})();
 </script>
 </body>
 </html>
-
-
-
-
-
-
-
-
